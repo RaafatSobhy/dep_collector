@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["raafat.sobhy5@gmail.com"]
 
   spec.summary       = %q{Ruby Gem To collect the project dependencies and operating system information.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/RaafatSobhy/dep_collector"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
