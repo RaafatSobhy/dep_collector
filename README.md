@@ -22,8 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-Displays the required system libraries to
+- Displays the required system libraries to
 install all your dependencies
+- Collect information of your working Operating system
 
 ## Development
 
