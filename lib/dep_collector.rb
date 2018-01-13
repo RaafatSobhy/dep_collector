@@ -3,7 +3,7 @@ require "dep_collector/version"
 module DepCollector
   class DependencyCommand
     require 'rubygems/commands/dependency_command'
-
+    require 'sys-uname'
     def self.get_dependencies name, local = true
       cmd = Gem::Commands::DependencyCommand.new
 
@@ -21,6 +21,11 @@ module DepCollector
         dependencies.concat spec.dependencies.sort_by {|dep| dep.name}.map {|dep| [dep.name, dep.requirement]}
       end
       dependencies
+    end
+
+    def self.get_os_info
+      info = Sys::Uname.uname
+      info
     end
   end
 end
