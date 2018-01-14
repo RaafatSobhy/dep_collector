@@ -8,11 +8,11 @@ Gem::Specification.new do |spec|
   spec.version       = DepCollector::VERSION
   spec.authors       = ["RaafatSobby"]
   spec.email         = ["raafat.sobhy5@gmail.com"]
-
+  spec.metadata      = { "source_code_uri" => "https://github.com/RaafatSobhy/dep_collector" }
   spec.summary       = %q{Ruby Gem To collect the project dependencies and operating system information.}
   spec.homepage      = "https://github.com/RaafatSobhy/dep_collector"
   spec.license       = "MIT"
-
+  spec.email         = 'raafat.sobhy5@gmail.com'
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   # if spec.respond_to?(:metadata)

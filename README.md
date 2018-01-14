@@ -9,6 +9,7 @@ need to install .
 Add this line to your application's Gemfile:
 
 ```ruby
+gem 'sys-uname'
 gem 'dep_collector'
 ```
 
@@ -43,3 +44,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the DepCollector project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/dep_collector/blob/master/CODE_OF_CONDUCT.md).
+
+## Demo
+
+[Demo Link](https://github.com/RaafatSobhy/dep_collector_demo)
